@@ -11,6 +11,6 @@ use `demo`;
 # select 'executing incremental_scripts/entry_scripts/20200218/inc_20200218.sql' as log from dual;
 # source incremental_scripts/entry_scripts/20200218/inc_20200218.sql;
 #
--- 3、增量脚本：20200225
+-- 3、增量脚本：20200325
 select 'executing incremental_scripts/entry_scripts/20200325/inc_20200325.sql' as log from dual;
 source incremental_scripts/entry_scripts/20200325/inc_20200325.sql;

@@ -1,5 +1,5 @@
 select 'executing drop user demo' as log from dual;
-drop user 'demo'@'%';
+drop user if exists 'demo'@'%';
 
 -- 创建用户
 select 'executing create user demo' as log from dual;
